@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #1c1e29;
+}
+
+.homePageWrapper{
+    height: 100vh;
+}
+
+.formWrapper{
+    background: #282a36;
+    max-width: 90%;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+
+}
+.btn{
+    background: #4aed88;
+}
+
+.createNewButton{
+    color: #4aed88;
+    border-bottom: 1px solid #4aed88;
+    transition: all 0.3s ease-in-out;
+}
+.createNewButton:hover{
+    color: #368654;
+    border-color: #368654;
+
+}
+
+.logo{
+    border-bottom: 1px solid #424242
+}
+
+.copyBtn{
+    background: #eee;
+}
+.CodeMirror{
+    min-height: calc(100vh-20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
